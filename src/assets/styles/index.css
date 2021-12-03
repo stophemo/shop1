@@ -1,0 +1,454 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.sousuo {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.sousuo form {
+  height: 60px;
+  line-height: 60px;
+  margin-left: 150px;
+}
+
+.sousuo form input {
+  border: 2px solid red;
+  width: 430px;
+  padding: 10px 10px 10px 10px;
+  line-height: 3px;
+  outline: none;
+}
+
+.sousuo form label {
+  padding: 10.5px 20px;
+  border: 1px solid red;
+  background: red;
+  color: white;
+}
+
+.shop_car {
+  display: flex;
+  padding: 5px 30px 5px 50px;
+  border: 1px solid rgb(209, 205, 205);
+  margin-left: 150px;
+  background: #F6F6F6;
+  background-image: url(../image/car.png);
+  background-repeat: no-repeat;
+  background-position: 20px 10px;
+}
+
+.search_history {
+  margin-left: 150px;
+}
+
+.search_history ul {
+  display: flex;
+}
+
+.search_history ul li {
+  padding: 0px 5px;
+}
+
+
+/* ------------------------------------------- */
+
+.all_douct {
+  width: 1200px;
+  /* border: 1px solid red; */
+  margin: 0 auto;
+  display: flex;
+}
+
+.all_douct ul {
+  display: flex;
+  padding: 10px 10px;
+}
+
+.all_douct li {
+  font-size: 14px;
+  margin: 0px 10px;
+  font-weight: bold;
+}
+
+.all_douct p {
+  padding: 10px 10px 10px 30px;
+  background-color: red;
+  width: 140px;
+  height: 25px;
+  color: white;
+  font-size: 16px;
+}
+
+.all_douct ul li:nth-child(1) a {
+  color: red;
+}
+
+.all_douct ul li:nth-child(2) a {
+  color: red;
+}
+
+.pohone_buy {
+  /* border: 1px solid red; */
+  margin-left: 250px;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+}
+
+.pohone_buy div img {
+  vertical-align: middle;
+}
+
+.pohone_buy span {
+  font-size: 12px;
+  margin-left: 10px;
+}
+
+
+/* -------------------------------------------------------------- */
+
+.caidan {
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.caidan_liebiao {
+  width: 180px;
+  background-color: #B01D1D;
+}
+
+.caidan_liebiao ul a {
+  color: white;
+}
+
+.caidan_liebiao ul li {
+  padding: 5px 0px;
+}
+
+.li-1 span {
+  display: inline-block;
+  /* margin-right: 10px; */
+  height: 24px;
+  width: 30px;
+  vertical-align: middle;
+  background-image: url(../image/nav1.png);
+  background-repeat: no-repeat;
+  background-position: 8px 2px;
+}
+
+.li-2 span {
+  display: inline-block;
+  /* margin-right: 10px; */
+  height: 24px;
+  width: 30px;
+  vertical-align: middle;
+  background-image: url(../image/nav2.png);
+  background-repeat: no-repeat;
+  background-position: 8px 2px;
+}
+
+.li-3 span {
+  display: inline-block;
+  /* margin-right: 10px; */
+  height: 24px;
+  width: 30px;
+  vertical-align: middle;
+  background-image: url(../image/nav3.png);
+  background-repeat: no-repeat;
+  background-position: 6px 2px;
+}
+
+.li-4 span {
+  display: inline-block;
+  /* margin-right: 10px; */
+  height: 24px;
+  width: 30px;
+  vertical-align: middle;
+  background-image: url(../image/nav4.png);
+  background-repeat: no-repeat;
+  background-position: 6px 2px;
+}
+
+.li-5 span {
+  display: inline-block;
+  /* margin-right: 10px; */
+  height: 24px;
+  width: 30px;
+  vertical-align: middle;
+  background-image: url(../image/nav5.png);
+  background-repeat: no-repeat;
+  background-position: 10px 2px;
+}
+
+.li-6 span {
+  display: inline-block;
+  /* margin-right: 10px; */
+  height: 24px;
+  width: 30px;
+  vertical-align: middle;
+  background-image: url(../image/nav6.png);
+  background-repeat: no-repeat;
+  background-position: 6px 2px;
+}
+
+.li-7 span {
+  display: inline-block;
+  /* margin-right: 10px; */
+  height: 24px;
+  width: 30px;
+  vertical-align: middle;
+  background-image: url(../image/nav7.png);
+  background-repeat: no-repeat;
+  background-position: 6px 2px;
+}
+
+.li-8 span {
+  display: inline-block;
+  /* margin-right: 10px; */
+  height: 24px;
+  width: 30px;
+  vertical-align: middle;
+  background-image: url(../image/nav8.png);
+  background-repeat: no-repeat;
+  background-position: 6px 2px;
+}
+
+.li-9 span {
+  display: inline-block;
+  /* margin-right: 10px; */
+  height: 24px;
+  width: 30px;
+  vertical-align: middle;
+  background-image: url(../image/nav9.png);
+  background-repeat: no-repeat;
+  background-position: 8px 2px;
+}
+
+.li-10 span {
+  display: inline-block;
+  /* margin-right: 10px; */
+  height: 24px;
+  width: 30px;
+  vertical-align: middle;
+  background-image: url(../image/nav10.png);
+  background-repeat: no-repeat;
+  background-position: 5px 2px;
+}
+
+.caidan_liebiao .li .span1 {
+  /* border: 1px solid red; */
+  background-image: url(../image/r_right.png);
+  background-repeat: no-repeat;
+  vertical-align: middle;
+  background-size: 7.5px 14px;
+  background-position: 20px 4px;
+}
+
+.caidan_tupian img {
+  width: 740px;
+  height: 340px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.caidan_tupian {
+  position: relative;
+}
+
+.caidan_tupian_yuandian {
+  position: absolute;
+  bottom: 20px;
+  left: 350px;
+}
+
+.caidan_tupian_yuandian span {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background: rgb(219, 219, 219);
+  border-radius: 50%;
+  line-height: 20px;
+  text-align: center;
+}
+
+.caidan_zixun_kuaixun {
+  border: 1px solid rgb(219, 219, 219);
+  margin: 0 20px;
+}
+
+.caidan_zixun_kuaixun h4 {
+  display: inline-block;
+}
+
+.caidan_zixun_kuaixun ul li {
+  margin: 2px;
+}
+
+.caidan_zixun_kuaixun ul li:nth-child(1) h4 {
+  font-size: 15px;
+}
+
+.caidan_zixun_kuaixun ul li:nth-child(1) {
+  border-bottom: 1px solid rgb(219, 219, 219);
+}
+
+.caidan_zixun_kuaixun_span2 {
+  margin-left: 120px;
+}
+
+.caidan_zixun_kuaixun ul li div img {
+  margin-top: 2px;
+  width: 200px;
+  height: 120px;
+}
+
+
+/* ===================================================== */
+
+.hot {
+  padding: 20px 0;
+  width: 1200px;
+  display: flex;
+  flex-flow: nowrap row;
+  justify-content: space-between;
+}
+
+.hot_first {
+  width: 300px;
+  border: 1px solid rgb(202, 199, 199);
+  display: flex;
+  flex-flow: nowrap column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hot_first p:nth-of-type(1) {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.hot_first span:nth-of-type(1) {
+  font-size: 18px;
+  font-weight: bold;
+  color: red;
+}
+
+.hot_first div span {
+  padding: 0px 10px;
+}
+
+.hot1 {
+  border: none;
+}
+
+
+/* ======================================= */
+
+.img {
+  width: 1200px;
+}
+
+
+/* ----------------------------------------------- */
+
+.first_F {
+  padding: 10px 0;
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.first_F_jinkou_shengxian {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
+
+.first_F_jinkou_shengxian_title {
+  display: flex;
+  align-items: flex-start;
+  vertical-align: middle;
+  line-height: 38px;
+  position: relative;
+}
+
+.first_F_jinkou_shengxian_title p {
+  font-size: 15px;
+  color: #FF4E00;
+  margin-left: 50px;
+}
+
+.first_F_jinkou_shengxian ul {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.first_F_jinkou_shengxian ul li {
+  margin-right: 10px;
+}
+
+.first_F_jinkou_shengxian_xiangxi {
+  display: flex;
+  flex-flow: row nowrap;
+  border-top: 2px solid red;
+}
+
+.first_F_jinkou_shengxian_xiangxi_img {
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.first_F_jinkou_shengxian_title span {
+  position: absolute;
+  left: 6px;
+}
+
+.first_F_jinkou_shengxian_xiangxi_img ul li {
+  display: flex;
+  flex-flow: row nowrap;
+  border-bottom: 1px dashed gray;
+  border-top: none;
+  padding-top: 10px;
+  background-color: #E4F7EC;
+}
+
+.first_F_jinkou_shengxian_xiangxi_img ul li a {
+  margin-left: 20px;
+}
+
+.first_F_jinkou_shengxian_xiangxi_img_li {
+  padding: 5px 0;
+}
+
+.first_F_jinkou_shengxian_xiangxi_shangpin {
+  display: grid;
+  /* border: 1px solid red; */
+  grid-template-columns: 220px 220px 220px;
+  grid-template-rows: 220px 220px;
+  margin-left: 20px;
+}
+
+.first_F_jinkou_shengxian_xiangxi_shangpin_list {
+  /* border: 1px solid red; */
+  display: flex;
+  flex-flow: nowrap column;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid rgb(177, 177, 177);
+  border-right: 1px solid rgb(177, 177, 177);
+}
+
+.first_F_jinkou_shengxian_xiangxi_shangpin_rightimg {
+  display: flex;
+  flex-flow: column nowrap;
+  margin-left: 30px;
+}
