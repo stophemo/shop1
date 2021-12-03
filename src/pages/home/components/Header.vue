@@ -22,7 +22,7 @@
   </header>
 </template>
 
-<script>
+<script scoped>
 export default {
   name: 'HomeHeader'
 }

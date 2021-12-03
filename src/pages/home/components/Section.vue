@@ -102,12 +102,12 @@
         </ul>
       </div>
       <div class="caidan_tupian">
-        <img src="../../../assets/image/ban1.jpg" alt="">
-        <div class="caidan_tupian_yuandian">
-          <span>1</span>
-          <span>2</span>
-          <span>3</span>
-        </div>
+        <swiper :options="swiperOptions">
+          <swiper-slide><img class="swiper-img" src="../../../assets/image/ban1.jpg" alt=""></swiper-slide>
+          <swiper-slide><img class="swiper-img" src="../../../assets/image/ban1.jpg" alt=""></swiper-slide>
+          <swiper-slide><img class="swiper-img" src="../../../assets/image/ban1.jpg" alt=""></swiper-slide>
+          <div class="swiper-pagination" slot="pagination"></div>
+        </swiper>
       </div>
       <div class="caidan_zixun">
         <div class="caidan_zixun_kuaixun">
@@ -348,7 +348,7 @@
       <div class="first_F_jinkou_shengxian_xiangxi ">
         <div class="first_F_jinkou_shengxian_xiangxi_img ">
 
-          <img src="../../../assets/image/fre_r.jpg"  alt=" ">
+          <img src="../../../assets/image/fre_r.jpg" alt=" ">
           <ul>
 
             <li class="first_F_jinkou_shengxian_xiangxi_img_li ">
@@ -378,7 +378,7 @@
           <div class="first_F_jinkou_shengxian_xiangxi_shangpin_list ">
             <p>美宝莲粉饼</p>
             <p>￥300</p>
-            <img src="../../../assets/image/fre_3.jpg"  alt=" ">
+            <img src="../../../assets/image/fre_3.jpg" alt=" ">
           </div>
           <div class="first_F_jinkou_shengxian_xiangxi_shangpin_list ">
             <p>美宝莲粉饼</p>
@@ -446,7 +446,7 @@
       <div class="first_F_jinkou_shengxian_xiangxi ">
         <div class="first_F_jinkou_shengxian_xiangxi_img ">
 
-          <img src="../../../assets/image/fre_r.jpg"  alt=" ">
+          <img src="../../../assets/image/fre_r.jpg" alt=" ">
           <ul>
 
             <li class="first_F_jinkou_shengxian_xiangxi_img_li ">
@@ -476,7 +476,7 @@
           <div class="first_F_jinkou_shengxian_xiangxi_shangpin_list ">
             <p>美宝莲粉饼</p>
             <p>￥300</p>
-            <img src="../../../assets/image/fre_3.jpg"  alt=" ">
+            <img src="../../../assets/image/fre_3.jpg" alt=" ">
           </div>
           <div class="first_F_jinkou_shengxian_xiangxi_shangpin_list ">
             <p>美宝莲粉饼</p>
@@ -664,11 +664,18 @@
 
 <script>
 export default {
-  name: 'HomeSection'
+  name: 'HomeSection',
+  data () {
+    return {
+      swiperOptions: {
+        pagination: '.swiper-pagination'
+      }
+    }
+  }
 }
 </script>
 
-<style>
+<style scoped>
 * {
   margin: 0;
   padding: 0;
@@ -918,12 +925,24 @@ section {
   background-size: 7.5px 14px;
   background-position: 20px 4px;
 }
-
-.caidan_tupian img {
+.caidan_tupian {
   width: 740px;
   height: 340px;
   margin-left: 10px;
   margin-top: 10px;
+  overflow: hidden;
+}
+.swiper-wrapper,.swiper-container {
+  width: 100%;
+  height: 100%;
+}
+
+/deep/ .swiper-pagination-bullet-active {
+  background: #fff!important;
+}
+
+.swiper-img {
+  width: 100%;
 }
 
 .caidan_tupian {

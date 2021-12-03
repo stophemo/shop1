@@ -3,9 +3,12 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
+import VueAwesomSwiper from 'vue-awesome-swiper'
 import './assets/styles/public.css'
+import 'swiper/dist/css/swiper.css'
 
 Vue.config.productionTip = false
+Vue.use(VueAwesomSwiper)
 
 /* eslint-disable no-new */
 new Vue({
